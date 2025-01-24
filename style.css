@@ -1,0 +1,84 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: lightgray;
+}
+
+#Main {
+    display: flex;
+    justify-content: space-between;
+    background-color: orange;
+    align-items: center;
+}
+
+#navbar {
+    display: flex;
+}
+ul li {
+    padding-right: 12px;
+
+}
+#Home {
+    list-style: none;
+
+}
+
+.Home {
+    text-decoration: none;
+    color: white;
+}
+
+.menu-list {
+    list-style: none;
+
+}
+
+.menu-list-1 {
+    text-decoration: none;
+    color: white;
+    justify-content: space-between;
+
+}
+#logo{
+width: 60%;
+height: 60%;
+}
+#banner{
+    background-image: url("./top-view-online-shopping-concept-with-credit-card-smart-phone-computer-isolated-office-yellow-table-background_315337-3591.avif");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-bottom: 190px;
+    padding-top:130px;
+ }
+#banner-head{
+font-size: 70px;
+}
+#banner-button{
+width: 100px;
+height: 50px;
+background-color: orange;
+border: none;
+border-radius: 20px;
+}
+.card-main{
+    background-color: white;
+    justify-content: space-between;
+    display: flex;
+    padding-left: 30px;
+    padding-top: 12px;
+
+}
+.card{
+
+    padding-top: 12px;
+    border: 2px solid ;
+    text-align: center;
+}
+.product{
+    width: 60%;
+
+    height: 40%;
+}
+
