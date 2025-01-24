@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: lightgray;
+    /* background-color: lightgray; */
 }
 
 #Main {
@@ -14,13 +14,19 @@ body {
 #navbar {
     display: flex;
 }
+
 ul li {
-    padding-right: 12px;
+    margin-right: 12px;
+    text-align: center;
 
 }
+
 #Home {
     list-style: none;
-
+    background-color: orangered;
+    height: 30px;
+    width: 50px;
+    border-radius: 5px;
 }
 
 .Home {
@@ -36,49 +42,227 @@ ul li {
 .menu-list-1 {
     text-decoration: none;
     color: white;
-    justify-content: space-between;
 
 }
-#logo{
-width: 60%;
-height: 60%;
+
+#logo {
+    width: 60%;
+    height: 60%;
 }
-#banner{
+
+#banner {
     background-image: url("./top-view-online-shopping-concept-with-credit-card-smart-phone-computer-isolated-office-yellow-table-background_315337-3591.avif");
     background-size: cover;
     width: 100%;
     height: 100%;
     text-align: center;
     padding-bottom: 190px;
-    padding-top:130px;
- }
-#banner-head{
-font-size: 70px;
+    padding-top: 130px;
 }
-#banner-button{
-width: 100px;
-height: 50px;
-background-color: orange;
-border: none;
-border-radius: 20px;
+
+#banner-head {
+    font-size: 70px;
 }
-.card-main{
+
+#banner-button {
+    width: 100px;
+    height: 50px;
+    background-color: orange;
+    border: none;
+    border-radius: 20px;
+}
+
+.card-main {
     background-color: white;
-    justify-content: space-between;
     display: flex;
-    padding-left: 30px;
-    padding-top: 12px;
-
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 2rem;
 }
-.card{
 
+.card {
     padding-top: 12px;
-    border: 2px solid ;
     text-align: center;
+    padding-bottom: 20px;
 }
-.product{
+
+.product {
     width: 60%;
 
     height: 40%;
 }
 
+.card-button {
+    background-color: orange;
+    /* height: 40px;
+    width: 80px; */
+    border-radius: 20px;
+}
+
+.heading-review {
+    margin-top: 200px;
+    text-align: center;
+
+}
+
+.image-contain {
+    background-image: url(./re-1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 60px;
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+/* .footer{
+    background-color: black;
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+} */
+
+
+
+.footer-i-main {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.footer-i {
+    color: white;
+}
+
+.footer-cont {
+    border: 1px solid orange;
+    margin-top: 100px;
+    color: white !important;
+    background-color: orange;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: white;
+}
+
+.editor {
+    border: 1px solid black;
+    width: 500px !important;
+    margin: 0 auto;
+    margin-top: 12px;
+
+}
+
+
+
+
+
+.MAIN-SUB-3 {
+    height: 500px !important;
+    width: 500px;
+}
+
+.about {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+
+
+#hedding {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+#contact-main {
+    border: 1px solid black;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+#contact-main {
+    display: flex;
+}
+
+#contact-main-1 {
+    background-image: url('./contact.jpg');
+    height: 600px;
+    width: 500px;
+    padding: 20px;
+    font-size: 13px;
+}
+
+.space-cn-2 {
+    margin-top: 30px;
+}
+
+.space-cn-1 {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 30px;
+
+}
+
+#contact-main-1 h3 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.upward-btn {
+    background-color: orange;
+    float: right;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#contact-main-2 {
+    background-color: orange;
+    width: 70%;
+    text-align: center;
+}
+
+label {
+    font-weight: 500;
+}
+
+#headdin-12 {
+    margin-top: 50px;
+}
+
+#Submit {
+    background-color: orangered;
+    border: none;
+    width: 80px;
+    height: 30px;
+    border-radius: 32px;
+}
+
+input {
+    border-radius: 20px;
+}
+
+
+.menu-list-1:hover { 
+color: white;
+background-color: orangered;
+}
+
+.card-button:hover{
+    background-color: orangered;
+    color: white;
+}
